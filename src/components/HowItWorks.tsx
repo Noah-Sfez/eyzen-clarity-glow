@@ -9,7 +9,7 @@ const steps = [
   {
     icon: Zap,
     title: "Smart Analysis",
-    description: "AI-powered algorithms analyze your visual behavior in real-time, learning your unique patterns and preferences.",
+    description: "Powered algorithms analyze your visual behavior in real-time, learning your unique patterns and preferences.",
   },
   {
     icon: Lightbulb,
