@@ -1,12 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/lunettes-decore.jpg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-accent/20 to-background" />
+      
+      {/* Logo */}
+      <div className="absolute top-8 left-8 z-20">
+        <img src={logo} alt="EyeZen Logo" className="h-12 w-auto" />
+      </div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
